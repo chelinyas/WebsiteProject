@@ -54,3 +54,5 @@ window.addEventListener("load", () => {
     document.body.appendChild(overlay);
   }, 2000); // 2 segundos de espera
 });
+
+// Hay un problema y es que el mensaje carga cada vez que se recarga la página, lo que no es deseado.
